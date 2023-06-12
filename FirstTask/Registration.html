@@ -1,5 +1,5 @@
 <html>
-<body>
+<body align="Center">
   <img src="aiub.jpg" width="120" height="70">
 
 
@@ -11,11 +11,17 @@
   <label for="eMail">Email: </label>
   <input type="text" id="eMail"><br><br>
 
-  <label for="gender">Gender:</label><br>
-  <input type="radio" id="male">
-  <label for="male">Male</lable>
-  <input type="radio" id="female">
-  <label for="female">Female</lable>
+  <table align="Center">
+    <tr>
+      <td align="left">Gender: </td>
+      <td><input type="radio" name="" value="Male">Male</td>
+    </tr>
+    <tr>
+      <td colspan="2" align="right"><input type="radio" name="" value="Female">Female</td>
+    </tr>
+  </table>
+
+
   <br><br>
 
   <label for="birthday">Birthday</label>
@@ -29,11 +35,20 @@
   </select>
   <br><br>
 
-  <label for="pass">Password:</label>
+  <table align="Center">
+    <tr>
+      <td align="right">Password: <input type="password" name="" value="********"></td>
+    </tr>
+    <tr>
+      <td>Confirm password: <input type="password" name="" value="********"></td>
+    </tr>
+  </table>
+
+ <!--  <label for="pass">Password:</label>
   <input type="password" id="pass"><br><br>
   <lable for="confirm_pass">Confirm password:</lable>
   <input type="password" id="confirm_pass">
-  <br><br>
+  <br><br> -->
  
 
   <input type="checkbox" id="terms_condiiton">
